@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>خطة الوحش البرمجية</title>
+    <link rel="icon" href="./logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        transition: all 0.3s;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "Cairo", sans-serif;
+        background-color: #f3f3f3;
+        direction: rtl;
+      }
+      ::-webkit-scrollbar-track {
+        background-color: #f5f5f5;
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: #54ac68;
+      }
+      ::-webkit-scrollbar {
+        width: 6px;
+        z-index: 9;
+      }
+      ::-webkit-scrollbar-corner {
+        color: #f5f5f5;
+      }
+      .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      /* Small */
+      @media (min-width: 768px) {
+        .container {
+          width: 750px;
+        }
+      }
+      /* Medium */
+      @media (min-width: 992px) {
+        .container {
+          width: 970px;
+        }
+      }
+      /* Large */
+      @media (min-width: 1200px) {
+        .container {
+          width: 1170px;
+        }
+      }
+      .container .logo {
+        filter: invert(1);
+      }
+      .container .logo img {
+        width: 100%;
+        filter: hue-rotate(188deg);
+      }
+
+      .text-box {
+        font-size: 25px;
+        font-weight: 900;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        padding: 20px;
+        position: relative;
+        margin: 20px 0;
+      }
+      .text-box::before {
+        content: "";
+        width: 50%;
+        height: 2px;
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #54ac68;
+      }
+
+      ul {
+        padding: 20px;
+        background-color: #eee;
+      }
+
+      ul li {
+        list-style: inside;
+        margin: 20px;
+      }
+      ul li span {
+        color: #54ac68;
+        font-weight: 700;
+      }
+      ul li p {
+        line-height: 2;
+        color: #000 !important;
+      }
+
+      .contact {
+        margin: 50px 0;
+      }
+
+      .contact {
+        text-align: center;
+      }
+
+      .contact a {
+        color: #54ac68;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="home">
+      <div class="container">
+        <div class="logo">
+          <img src="./logo.png" />
+        </div>
+        <div class="text-box">
+          خطة أحمد الوحش البرمجية للارتقاء بمستوى طلابنا التقني
+        </div>
+        <ul>
+          <li>
+            <span>الأهداف :</span>
+            <p>
+              رفع الوعي التقني لدى طلاب مدارسنا ، ومساعدتهم على إدراك أهمية
+              البرمجة في عصرنا الحالي.
+            </p>
+          </li>
+
+          <li>
+            <span>الإجراءات :</span>
+            <p>
+              عقد محاضرات توعية في مختلف مدارس المديرية ، بل وطرح الفكرة على
+              باقي مديريات التربية ، ومحاولة توفير خطط تعلم لجميع الطلاب كلٌ حسب
+              عمره ، والسعي لاإقناع وزارة التربية والتعليم لتطوير إمكانيات
+              المدارس التقنية .
+            </p>
+          </li>
+
+          <li>
+            <span>المواد المادية اللازمة :</span>
+            <p>
+              الفكرة لا تحتاج إلى مواد ، فقط لسان ناطق وعقول صاغية ، لكن لا بأس
+              بتوفير قاعات لإلقاء المحاضرات بشكل أوضح.
+            </p>
+          </li>
+
+          <li>
+            <span>المواد البشرية اللازمة :</span>
+            <p>مجلس البرلمان ، المدارس المشاركة.</p>
+          </li>
+
+          <li>
+            <span>زمن التنفيذ :</span>
+            <p>
+              توزع المحاضرات على مدار الفصل الدراسي الثاني ، بالتنسيق مع مديرية
+              التربية والتعليم.
+            </p>
+          </li>
+        </ul>
+        <div class="contact">
+          <h3>للإستزادة والاطلاع :</h3>
+          <a href="https://alwahsh.netlify.app/software-dev"
+            >نبذة عن مهاراتنا البرمجية</a
+          >
+          <a href="https://alwahsh.netlify.app/contact">تواصل معنا</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
